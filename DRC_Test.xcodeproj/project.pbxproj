@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		526904FC6B29C504466DD394 /* Pods_DRC_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FCB6C1497B9F61A8686351 /* Pods_DRC_Test.framework */; };
 		54EC0338ECA5DF39D5FDA584 /* Pods_DRC_Test_DRC_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179084A868CB2B72FCA9884C /* Pods_DRC_Test_DRC_TestUITests.framework */; };
+		92074F98277B5DBD00992116 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92074F97277B5DBD00992116 /* Test.swift */; };
 		BD38C44D93D2C5AF95BB8029 /* Pods_DRC_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17216BFA308241589F98F42C /* Pods_DRC_TestTests.framework */; };
 		E724308F26A4300900AC825F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724308E26A4300900AC825F /* AppDelegate.swift */; };
 		E724309126A4300900AC825F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724309026A4300900AC825F /* SceneDelegate.swift */; };
@@ -72,6 +73,7 @@
 		60166147B23E0A139D862414 /* Pods-DRC_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRC_Test.release.xcconfig"; path = "Target Support Files/Pods-DRC_Test/Pods-DRC_Test.release.xcconfig"; sourceTree = "<group>"; };
 		8D921739D3BC4A2AC1EB62AC /* Pods-DRC_TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRC_TestTests.release.xcconfig"; path = "Target Support Files/Pods-DRC_TestTests/Pods-DRC_TestTests.release.xcconfig"; sourceTree = "<group>"; };
 		90FCB6C1497B9F61A8686351 /* Pods_DRC_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRC_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92074F97277B5DBD00992116 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		E724308B26A4300900AC825F /* DRC_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRC_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E724308E26A4300900AC825F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E724309026A4300900AC825F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				E757367126A43751004C9787 /* View Models */,
 				E757367326A43751004C9787 /* Views */,
 				E724308E26A4300900AC825F /* AppDelegate.swift */,
+				92074F97277B5DBD00992116 /* Test.swift */,
 				E724309026A4300900AC825F /* SceneDelegate.swift */,
 				E724309426A4300900AC825F /* Main.storyboard */,
 				E724309726A4300B00AC825F /* Assets.xcassets */,
@@ -502,6 +505,7 @@
 				E757367826A437DC004C9787 /* NewsDetailsViewController.swift in Sources */,
 				E724308F26A4300900AC825F /* AppDelegate.swift in Sources */,
 				E757368A26A44BB8004C9787 /* NewsListViewModel.swift in Sources */,
+				92074F98277B5DBD00992116 /* Test.swift in Sources */,
 				E75736A426A47E82004C9787 /* DRCUtility.swift in Sources */,
 				E757367F26A439DD004C9787 /* NewsTableViewCell.swift in Sources */,
 				E757368426A44033004C9787 /* NewsAPIClass.swift in Sources */,
